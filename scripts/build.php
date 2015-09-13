@@ -851,7 +851,7 @@ setAttributes(
 $modification->appendChild($dom->createElement('find', '.bbCodeQuote iframe,'));
 $modification->appendChild($dom->createElement(
 	'replace',
-	'.bbCodeQuote iframe, .bbCodeQuote [data-s9e="wrapper"],'
+	'.bbCodeQuote iframe, .bbCodeQuote [data-s9e-mediaembed],'
 ));
 
 // Add the params as XenForo options
