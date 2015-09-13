@@ -27,7 +27,7 @@
 				var m = /youtube\.com\/embed\/(\w+)/.exec(iframe.src);
 				if (m)
 				{
-					iframe.style.background = 'url(https://i.ytimg.com/vi/' + m[1] + '/hqdefault.' + (typeof chrome === 'undefined' ? 'jpg' : 'webp') + ') no-repeat 50% 50% / cover';
+					iframe.style.background = 'url(https://i.ytimg.com/vi/' + m[1] + '/hqdefault.jpg) no-repeat 50% 50% / cover';
 				}
 
 				lazyIframes.push(iframe);
